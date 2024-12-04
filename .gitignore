@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules
+
+# MacOS auto-generated files
+.DS_Store
+
+# Nuxt outputs
+.cache
+.data
+.nitro
+.nuxt
+.output
+dist
+
+# Panda
+styled-system
+styled-system-studio

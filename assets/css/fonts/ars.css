@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'ars';
+  font-style: normal;
+  font-weight: 300;
+  src: local('ARS Maquette Pro Light'), local('ARS-Maquette-Pro-Light'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Light.woff2') format('woff2'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Light.woff') format('woff'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ars';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ARS Maquette Pro Regular'), local('ARS-Maquette-Pro-Regular'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Regular.woff2') format('woff2'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Regular.woff') format('woff'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ars';
+  font-style: normal;
+  font-weight: 500;
+  src: local('ARS Maquette Pro Medium'), local('ARS-Maquette-Pro-Medium'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Medium.woff2') format('woff2'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Medium.woff') format('woff'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ars';
+  font-style: normal;
+  font-weight: 700;
+  src: local('ARS Maquette Pro Bold'), local('ARS-Maquette-Pro-Bold'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Bold.woff2') format('woff2'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Bold.woff') format('woff'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ars';
+  font-style: normal;
+  font-weight: 900;
+  src: local('ARS Maquette Pro Black'), local('ARS-Maquette-Pro-Black'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Black.woff2') format('woff2'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Black.woff') format('woff'),
+      url('https://multimedia.lecho.be/shared/fonts/ars/ARSMaquettePro-Black.ttf') format('truetype');
+}

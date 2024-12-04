@@ -1,0 +1,30 @@
+{
+  "name": "n-panda",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "nuxt:build": "nuxt build",
+    "nuxt:preview": "nuxt preview",
+    "nuxt:generate": "nuxt generate",
+    "nuxt:prepare": "nuxt prepare",
+    "prepare": "panda codegen",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.7.2",
+    "@pandacss/dev": "^0.48.0",
+    "@pandacss/eslint-plugin": "^0.2.2",
+    "@stylistic/eslint-plugin": "^2.11.0",
+    "eslint": "^9.15.0",
+    "typescript": "^5.7.2",
+    "vue-tsc": "^2.1.10"
+  }
+}
