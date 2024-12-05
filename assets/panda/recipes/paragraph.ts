@@ -26,18 +26,5 @@ export default defineRecipe({
       },
     },
   },
-  // compoundVariants: [
-  //   {
-  //     size: 'sm',
-  //     // isChecked: true,
-  //     css: {
-  //       control: { borderColor: 'green.500' },
-  //     },
-  //   },
-  // ],
-  // defaultVariants: {
-  //   // visual: 'edgy',
-  //   size: 'sm',
-  //   // shape: 'circle',
-  // },
+
 })

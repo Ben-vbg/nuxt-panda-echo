@@ -14,15 +14,15 @@ export default {
       900: { value: 'rgba(255, 255, 255, 0)' },
     },
     black: {
-      100: { value: '#000000' }, // Noir
-      200: { value: '#1a1a1a' }, // Très sombre
-      300: { value: '#333333' }, // Sombre
-      400: { value: '#4d4d4d' }, // Gris foncé
-      500: { value: '#666666' }, // Gris moyen
-      600: { value: '#808080' }, // Gris clair
-      700: { value: '#999999' }, // Très clair
-      800: { value: '#b3b3b3' }, // Proche du blanc
-      900: { value: '#ffffff' }, // Blanc
+      100: { value: '#000000' },
+      200: { value: '#1a1a1a' },
+      300: { value: '#333333' },
+      400: { value: '#4d4d4d' },
+      500: { value: '#666666' },
+      600: { value: '#808080' },
+      700: { value: '#999999' },
+      800: { value: '#b3b3b3' },
+      900: { value: '#ffffff' },
     },
     red: {
       100: { value: '#C1272D' },
@@ -53,7 +53,28 @@ export default {
     },
   }),
   semantic: defineSemanticTokens.colors({
-    text: { value: '{colors.black.200}' },
-    link: { value: '{colors.green.100}' },
+    bg: {
+      value: {
+        base: '{colors.white.200}',
+        _dark: '{colors.black.200}',
+      },
+    },
+    text: {
+      value: {
+        base: '{colors.black.200}',
+        _dark: '{colors.white.200}',
+      },
+    },
+    link: {
+      value: {
+        base: '{colors.green.100}',
+        _dark: '{colors.green.100}',
+      },
+    },
+    red: { value: {
+      base: '{colors.red.100}',
+      _dark: '{colors.red.100}',
+    },
+    },
   }),
 }

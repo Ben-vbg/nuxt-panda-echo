@@ -10,18 +10,6 @@ export default defineRecipe({
   },
   variants: {
     heading: {
-      nav: {
-        value: {
-          width: '100vw',
-          height: '45px',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          maxWidth: '{breakpoints.laptop}',
-          paddingX: '{spacing.gutter.base}',
-          margin: '0 auto',
-          boxShadow: '{shadows.ui}',
-        },
-      },
       content: {
         value: {
           maxWidth: '550px',
@@ -33,6 +21,7 @@ export default defineRecipe({
       content: {
         value: {
           maxWidth: '550px',
+          padding: '{spacing.gutter.base}',
           flexDirection: 'column',
         },
       },
@@ -45,12 +34,22 @@ export default defineRecipe({
       },
       large: {
         value: {
-          flexDirection: 'row',
           width: '100%',
           maxWidth: '100vw',
           margin: '0',
+          padding: '{spacing.gutter.base}',
+          flexDirection: 'column',
         },
       },
+    },
+    column: {
+      auto: {
+        value: {
+          padding: '{spacing.gutter.base}',
+          flexDirection: 'row',
+        },
+      },
+
     },
     align: {
       center: { margin: '0 auto' },
@@ -60,18 +59,10 @@ export default defineRecipe({
         height: '100vh',
         maxHeight: '100vh',
       },
+      auto: {
+        height: '100%',
+        maxHeight: 'auto',
+      },
     },
   },
-  // compoundVariants: [
-  //   {
-  //     size: 'sm',
-  // isChecked: true,
-  //     css: {
-  //       control: { borderColor: 'green.500' },
-  //     },
-  //   },
-  // ],
-  // defaultVariants: {
-  //   heading: 'DEFAULT',
-  // },
 })
